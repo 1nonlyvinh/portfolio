@@ -1,0 +1,39 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #8e7570;
+}
+
+body {
+    display: flex;
+}
+
+li a {
+    display: flex;
+    color: aliceblue;
+    text-decoration: none;
+    align-items: center;
+    font-family: cursive;
+    padding: 23px 20px 0px 0px; 
+}
+
+ul {
+    display:flex; 
+    list-style-type: none;
+    margin: 0;
+    font-size: 2rem;
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    justify-content: flex-start; 
+    align-items: center;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+}

@@ -2,11 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
-    background-color: #8e7570;
-}
-
-body {
-    display: flex;
+    background-color: #ffffff;
 }
 
 li a {
@@ -37,3 +33,30 @@ ul {
 a:hover {
     border-bottom: 1px solid white;
 }
+
+
+
+.display {
+    width: 500px;
+    background-color: #8a8381;
+    display: flex;
+    align-content: flex-start; 
+    flex-direction: row;
+    border: solid black;
+    margin-top: 30px;
+    margin-left: 30px;
+    font-family: cursive;
+    padding: 20px;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+}
+.display:hover {
+    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+
+}
+
+
+

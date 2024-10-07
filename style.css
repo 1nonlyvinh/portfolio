@@ -54,7 +54,7 @@ a:hover {
     text-align: center;
 }
 .display:hover {
-    box-shadow: 0 16px 24px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 24px 32px 0 rgba(0,0,0,0.2);
 
 }
 
